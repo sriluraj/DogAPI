@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Assignment_RestAssured" duration-ms="12921" started-at="2020-07-21T16:25:07Z" finished-at="2020-07-21T16:25:20Z">
+    <groups>
+    </groups>
+    <test name="Dog Breed Test" duration-ms="12921" started-at="2020-07-21T16:25:07Z" finished-at="2020-07-21T16:25:20Z">
+      <class name="com.Doglist.TC_03Subbreeds">
+        <test-method status="PASS" signature="getsubbreed()[pri:0, instance:com.Doglist.TC_03Subbreeds@5b275dab]" name="getsubbreed" duration-ms="411" started-at="2020-07-21T16:25:20Z" finished-at="2020-07-21T16:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsubbreed -->
+      </class> <!-- com.Doglist.TC_03Subbreeds -->
+      <class name="com.Doglist.TC_02DogbreedValidation">
+        <test-method status="PASS" signature="queryParameter()[pri:0, instance:com.Doglist.TC_02DogbreedValidation@523884b2]" name="queryParameter" duration-ms="602" started-at="2020-07-21T16:25:19Z" finished-at="2020-07-21T16:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryParameter -->
+      </class> <!-- com.Doglist.TC_02DogbreedValidation -->
+      <class name="com.Doglist.TC_01Doglist">
+        <test-method status="PASS" signature="getDogbreed()[pri:0, instance:com.Doglist.TC_01Doglist@4501b7af]" name="getDogbreed" duration-ms="11850" started-at="2020-07-21T16:25:07Z" finished-at="2020-07-21T16:25:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDogbreed -->
+      </class> <!-- com.Doglist.TC_01Doglist -->
+    </test> <!-- Dog Breed Test -->
+  </suite> <!-- Assignment_RestAssured -->
+</testng-results>

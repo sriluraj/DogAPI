@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Assignment_RestAssured">
+<test name="Dog Breed Test">
+
+<classes>
+<class name="com.Doglist.TC_01Doglist"/>
+<class name="com.Doglist.TC_02DogbreedValidation"/>
+<class name="com.Doglist.TC_03Subbreeds"/>
+</classes>
+</test>
+</suite>
