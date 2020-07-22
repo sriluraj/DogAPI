@@ -1,6 +1,9 @@
 package com.Doglist;
 
 import org.testng.annotations.Test;
+
+import java.io.File;
+
 import org.testng.Assert;
 import org.testng.AssertJUnit;
 import io.restassured.RestAssured;
@@ -22,8 +25,6 @@ import io.restassured.specification.RequestSpecification;
 	
 	String responseBody=response.getBody().asString();
 	  System.out.println("Response Body is:" +responseBody);
-	  
-	  
 	  
 	
 	int statusCode=response.getStatusCode();
