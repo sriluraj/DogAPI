@@ -7,6 +7,7 @@
 <class name="com.Doglist.TC_01Doglist"/>
 <class name="com.Doglist.TC_02DogbreedValidation"/>
 <class name="com.Doglist.TC_03Subbreeds"/>
+<class name="com.Doglist.TC_04Subreedimage"/>
 </classes>
 </test>
 </suite>

@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Doglist.TC_01Doglist">
+      <class name="com.Doglist.DogAPI">
         <methods>
-          <include name="getDogbreed"/>
+          <include name="GenerateReport"/>
+          <include name="getListOfAllDogBreed"/>
         </methods>
-      </class> <!-- com.Doglist.TC_01Doglist -->
+      </class> <!-- com.Doglist.DogAPI -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
